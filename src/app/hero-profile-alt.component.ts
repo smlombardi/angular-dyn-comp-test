@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   template: `
-    <div class="hero-profile">
+    <div class="hero-profile-alt">
       <h3>Alternate Profile!</h3>
       <h4>Oxy Moron</h4>
 

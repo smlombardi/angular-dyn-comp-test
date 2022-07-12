@@ -5,6 +5,7 @@ import { AdBannerComponent } from './ad-banner.component';
 import { HeroProfileComponent } from './hero-profile.component';
 import { HeroProfileAltComponent} from './hero-profile-alt.component'
 import { AdDirective } from './ad.directive';
+import { Slot2Directive} from './slot2.directive'
 
 
 @NgModule({
@@ -13,7 +14,7 @@ import { AdDirective } from './ad.directive';
     AppComponent,
     AdBannerComponent,
     HeroProfileComponent,
-    AdDirective, HeroProfileAltComponent
+    AdDirective, HeroProfileAltComponent, Slot2Directive
   ],
   bootstrap: [ AppComponent ]
 })
