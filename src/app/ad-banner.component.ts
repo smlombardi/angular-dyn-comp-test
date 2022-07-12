@@ -14,8 +14,10 @@ import { Slot2Directive } from './slot2.directive';
       <button (click)="loadAltComponent()">Load Alt</button>
       <button (click)="loadSlot2Component()">Load Slot 2</button>
       <button (click)="clearComponent()">CLEAR</button>
-
+      
+      <h3>Slot 2</h3>
       <ng-template slot2></ng-template>
+
 
     </div>
   `,
